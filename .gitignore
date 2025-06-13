@@ -1,0 +1,14 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore the secret environment variables file
+financial_agent/.env
+
+# Ignore Python cache files
+financial_agent/__pycache__/
+financial_agent/agents/__pycache__/
+financial_agent/agents/data_fetcher/__pycache__/
+
+# Ignore system files (optional but good practice)
+.DS_Store
+```    This setup ensures your secret `.env` file will **never** be committed to GitHub.
