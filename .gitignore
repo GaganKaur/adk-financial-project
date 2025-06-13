@@ -6,9 +6,10 @@ financial_agent/.env
 
 # Ignore Python cache files
 financial_agent/__pycache__/
-financial_agent/agents/__pycache__/
-financial_agent/agents/data_fetcher/__pycache__/
-
+financial_agent/sub_agents/__pycache__/
+financial_agent/sub_agents/data_fetcher/__pycache__/
+financial_agent/sub_agents/market_news/__pycache__/
+financial_agent/sub_agents/competitor_analysis/__pycache__/
 # Ignore system files (optional but good practice)
 .DS_Store
 ```    This setup ensures your secret `.env` file will **never** be committed to GitHub.
