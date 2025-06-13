@@ -27,7 +27,7 @@ This project demonstrates a financial analysis agent built with the Google Agent
 
 1.  **Clone & Install:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/GaganKaur/adk-financial-project.git
     cd financial_agent_project
     python -m venv venv && source venv/bin/activate
     pip install -r requirements.txt
